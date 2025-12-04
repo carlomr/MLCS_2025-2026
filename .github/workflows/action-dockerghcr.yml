@@ -9,8 +9,8 @@ jobs:
       contents: read
       packages: write 
 
-    steps:
 
+    steps:
     - name: checkout files in repo
       uses: actions/checkout@main
 
